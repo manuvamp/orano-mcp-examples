@@ -62,3 +62,13 @@ curl -s -X POST "$BASE" -H "Authorization: Bearer $KEY" -H "Content-Type: applic
 Read-only (scope `orano:read`), personal keys, 240 calls / 60 min budget, up to 10 active keys. No OAuth yet — keys are provisioned manually after subscribing.
 
 ORANO app: [iOS](https://apps.apple.com/us/app/orano-ai/id6791454509) · [Android](https://play.google.com/store/apps/details?id=com.oranoai.app) · [oranoai.com](https://oranoai.com)
+
+## Listed in the Official MCP Registry
+
+This server is published in the official MCP Registry: **`io.github.manuvamp/orano-personal-context-mcp`** (streamable-http). Browse it at https://registry.modelcontextprotocol.io or search there for "orano". Also listed on mcpservers.org.
+
+Quick check that the registry knows the server:
+
+```bash
+curl "https://registry.modelcontextprotocol.io/v0.1/servers?search=orano"
+```
