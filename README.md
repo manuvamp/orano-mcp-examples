@@ -72,3 +72,10 @@ Quick check that the registry knows the server:
 ```bash
 curl "https://registry.modelcontextprotocol.io/v0.1/servers?search=orano"
 ```
+
+## Setup guides
+
+- [Claude Code](https://oranoai.com/blog/connect-orano-claude-code-mcp.html): one `claude mcp add --transport http` command, or a `.mcp.json` with an env-var key
+- [Cursor](https://oranoai.com/blog/connect-orano-cursor-mcp.html): `mcp.json` with `url` + `Authorization: Bearer ${env:ORANO_MCP_KEY}`
+- [Three ways to use saved videos in ChatGPT, Claude or Cursor](https://oranoai.com/blog/give-chatgpt-claude-your-saved-videos.html)
+- Machine-readable connection details: https://oranoai.com/mcp.json
