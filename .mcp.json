@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "orano": {
+      "url": "https://orano-ai-backend-1037939693300.us-central1.run.app/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${env:ORANO_API_KEY}"
+      }
+    }
+  }
+}

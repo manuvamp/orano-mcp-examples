@@ -79,3 +79,17 @@ curl "https://registry.modelcontextprotocol.io/v0.1/servers?search=orano"
 - [Cursor](https://oranoai.com/blog/connect-orano-cursor-mcp.html): `mcp.json` with `url` + `Authorization: Bearer ${env:ORANO_MCP_KEY}`
 - [Three ways to use saved videos in ChatGPT, Claude or Cursor](https://oranoai.com/blog/give-chatgpt-claude-your-saved-videos.html)
 - Machine-readable connection details: https://oranoai.com/mcp.json
+
+## Use with Gemini CLI / Cursor
+
+Create a personal key in the ORANO app (or at https://oranoai.com/mcp-access.html), then:
+
+**Gemini CLI** (installs `gemini-extension.json` and prompts for the key, stored in your keychain):
+
+```bash
+gemini extensions install https://github.com/manuvamp/orano-mcp-examples
+```
+
+Or set it by hand: `export ORANO_API_KEY="YOUR_ORANO_PERSONAL_KEY"`.
+
+**Cursor**: set `ORANO_API_KEY` in your environment, then copy [`.mcp.json`](.mcp.json) to `.cursor/mcp.json` in your project (or `~/.cursor/mcp.json` for all projects). It uses `"Authorization": "Bearer ${env:ORANO_API_KEY}"`; no secret is stored in the file.
