@@ -4,7 +4,7 @@ ORANO turns saved videos, posts and links into transcripts, frame evidence,
 key points, resources and task plans. The ORANO MCP server lets an AI agent do
 what the app does, without the app: save a link and wait for the analysis,
 read and search the library, run research, plan tasks, organize, and ask Ori.
-41 tools over one personal key, read + write (a read-only key is optional).
+43 tools over one personal key, read + write (a read-only key is optional).
 
 - **Full reference (every tool, setup, limits):** https://oranoai.com/mcp/docs · Markdown: https://oranoai.com/mcp/docs.md
 - **Manifest:** https://oranoai.com/mcp.json
