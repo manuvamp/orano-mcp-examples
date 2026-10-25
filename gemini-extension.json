@@ -1,23 +1,23 @@
 {
   "name": "orano-personal-context",
-  "version": "1.0.0",
-  "description": "Read your own ORANO projects, handoffs, library and memory facts from Gemini CLI through the ORANO Personal Context MCP (remote, read-only).",
+  "version": "2.0.0",
+  "description": "Your ORANO library in Gemini CLI: save and analyze videos and links, search saves, run research, plan tasks and ask Ori through the ORANO MCP (remote, read + write).",
   "contextFileName": "GEMINI.md",
   "settings": [
     {
       "name": "ORANO API Key",
-      "description": "Your personal ORANO MCP key (scope orano:read). Create it in the ORANO app or at https://oranoai.com/mcp-access.html.",
+      "description": "Your personal ORANO MCP key (orano_sk_...). Create it at https://oranoai.com/mcp-access.html, or let your agent request one: https://oranoai.com/mcp/docs#agent-signup",
       "envVar": "ORANO_API_KEY",
       "sensitive": true
     }
   ],
   "mcpServers": {
     "orano": {
-      "httpUrl": "https://orano-ai-backend-1037939693300.us-central1.run.app/mcp/",
+      "httpUrl": "https://orano-ai-backend-1037939693300.asia-southeast1.run.app/mcp/",
       "headers": {
         "Authorization": "Bearer $ORANO_API_KEY"
       },
-      "timeout": 30000
+      "timeout": 90000
     }
   }
 }
