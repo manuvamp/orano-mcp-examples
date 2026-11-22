@@ -8,18 +8,19 @@ read and search the library, run research, plan tasks, organize, and ask Ori.
 
 - **Full reference (every tool, setup, limits):** https://oranoai.com/mcp/docs · Markdown: https://oranoai.com/mcp/docs.md
 - **Manifest:** https://oranoai.com/mcp.json
-- **Price:** $5/month per person. A person pays; an agent can start the signup.
+- **Hosted MCP price:** $5/month per person (a separate plan from the app's optional Pro). A person pays; an agent can start the signup.
 
 The production MCP server is hosted and closed source. This repository contains
 examples and client configurations.
 
 ## What is ORANO?
 
-ORANO is a freemium app for iOS, Android, and the
+ORANO is an app for iOS, Android, and the
 [web](https://oranoai.com/app). It turns saved Reels, TikToks, YouTube videos,
 articles, and PDFs into searchable summaries, key takeaways, and step-by-step
 plans. Projects can also include research context and a learning roadmap.
-It is free to download, with an optional Pro subscription at $5/month.
+It is free to download. ORANO Pro is an optional in-app subscription; the App
+Store and Google Play show the current plans and regional prices before you buy.
 
 ## Concepts
 
@@ -403,10 +404,12 @@ Example response (illustrative):
 
 ## Pricing & access
 
-The app is free to download with optional Pro at $5/month. The
-[MCP overview](https://oranoai.com/mcp) and
-[technical guide](https://oranoai.com/mcp/docs) price hosted MCP access at
-$5/month per person, not per agent. Hosted MCP key creation and authentication
+The app is free to download, with optional ORANO Pro as an in-app subscription
+(plans and regional prices are shown by the App Store and Google Play). Hosted
+MCP access is a separate plan: the [MCP overview](https://oranoai.com/mcp),
+[pricing page](https://oranoai.com/pricing) and
+[technical guide](https://oranoai.com/mcp/docs) price it at $5/month per
+person, not per agent. Hosted MCP key creation and authentication
 require an entitled account (an active subscription, trial, or complimentary
 access); a free download alone does not grant MCP access. The limits below are
 per account, not multiplied by the number of agents or keys.
